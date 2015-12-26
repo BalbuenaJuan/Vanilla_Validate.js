@@ -1,4 +1,4 @@
-# Vanilla_Validtae.js
+# Vanilla_Validate.js
 ***
 Version 1.0 compatible with all major browsers
 ***
