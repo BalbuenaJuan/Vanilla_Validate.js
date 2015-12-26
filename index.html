@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <form id="form" method="post">
+        <input type="text" placeholder="Escribe tu nombre" required>
+        <br>
+        <input name="email" id="email" class="input email" type="email" placeholder="Escribe tu Email" required/>
+        <br>
+        <label for="range" class="contador">Presupuesto:</label>
+        <input class="contador range" type="range" name="range" id="range" min="900" max="5000">
+        <div id="contador"></div>
+        <textarea cols="30" rows="10"  required placeholder="Escribe aquí el contenido de tu mensaje"></textarea>
+        <br>
+        <input name="submit" id="submit" class="submit" type="submit" value="Enviar">
+    </form>
+    <script src="js/app.js"></script>
+</body>
+</html>
